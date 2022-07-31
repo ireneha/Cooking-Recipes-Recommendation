@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="663.0" prefWidth="552.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.recipe.HelloController">
+   <children>
+      <Pane layoutY="103.0" prefHeight="128.0" prefWidth="552.0">
+         <children>
+            <Text layoutX="44.0" layoutY="32.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Choose your diet(s):" />
+            <RadioButton layoutX="188.0" layoutY="18.0" mnemonicParsing="false" text="Vegan" />
+            <RadioButton layoutX="282.0" layoutY="45.0" mnemonicParsing="false" text="Whole food" />
+            <RadioButton layoutX="188.0" layoutY="47.0" mnemonicParsing="false" text="Vegetarian" />
+            <RadioButton layoutX="282.0" layoutY="18.0" mnemonicParsing="false" text="Plan-based" />
+         </children>
+      </Pane>
+      <Pane layoutY="14.0" prefHeight="73.0" prefWidth="552.0">
+         <children>
+            <Text layoutX="3.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TELL ME ABOUT YOUR TASTE" wrappingWidth="546.0">
+               <font>
+                  <Font size="40.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Pane layoutX="152.0" layoutY="585.0" prefHeight="64.0" prefWidth="277.0">
+         <children>
+            <Button layoutX="14.0" layoutY="38.0" mnemonicParsing="false" onAction="#scene1" text="Back" />
+            <Button layoutX="151.0" layoutY="38.0" mnemonicParsing="false" onAction="#scene3" text="Get Recipes" />
+            <Button layoutX="84.0" layoutY="38.0" mnemonicParsing="false" text="Clear" />
+         </children>
+      </Pane>
+      <Pane layoutY="204.0" prefHeight="128.0" prefWidth="552.0">
+         <children>
+            <Text layoutX="43.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cooking Methods:" />
+            <RadioButton layoutX="184.0" layoutY="39.0" mnemonicParsing="false" text="Boiling" />
+            <RadioButton layoutX="286.0" layoutY="38.0" mnemonicParsing="false" text="Broiling" />
+            <RadioButton layoutX="183.0" layoutY="62.0" mnemonicParsing="false" text="Baking" />
+            <RadioButton layoutX="286.0" layoutY="62.0" mnemonicParsing="false" text="Sauteing" />
+            <RadioButton layoutX="401.0" layoutY="39.0" mnemonicParsing="false" text="Grilling" />
+            <RadioButton layoutX="401.0" layoutY="62.0" mnemonicParsing="false" text="Poaching" />
+            <RadioButton layoutX="183.0" layoutY="87.0" mnemonicParsing="false" text="Steaming" />
+            <RadioButton layoutX="286.0" layoutY="87.0" mnemonicParsing="false" text="Roasting" />
+            <RadioButton layoutX="401.0" layoutY="87.0" mnemonicParsing="false" text="Elses" />
+         </children>
+      </Pane>
+      <Pane layoutX="4.0" layoutY="356.0" prefHeight="128.0" prefWidth="552.0">
+         <children>
+            <Text layoutX="39.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ingredients:" />
+            <Button layoutX="386.0" layoutY="33.0" mnemonicParsing="false" text="Add" />
+            <Text layoutX="178.0" layoutY="104.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Added: " wrappingWidth="291.21630859375" />
+            <TextField layoutX="178.0" layoutY="34.0" />
+         </children>
+      </Pane>
+      <Pane layoutX="12.0" layoutY="493.0" prefHeight="81.0" prefWidth="552.0">
+         <children>
+            <Text layoutX="34.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Timing: " />
+            <TextField layoutX="182.0" layoutY="11.0" prefHeight="26.0" prefWidth="139.0" />
+            <Button layoutX="381.0" layoutY="11.0" mnemonicParsing="false" text="Add" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
